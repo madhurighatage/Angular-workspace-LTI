@@ -1,0 +1,61 @@
+{
+  "products": [
+  { 
+  "prodId": 111,
+  "prodName": "Mobile",
+  "prodCost": "40000"
+  },
+  
+  {  
+  "prodId": 112,
+  "prodName": "Charger",
+  "prodCost": "600"
+  },
+  
+  {
+  "prodId": 113,
+  "prodName": "Headphone",
+  "prodCost": "3000"
+  },
+  {  
+    "prodId": 114,
+    "prodName": "Powerbank",
+    "prodCost": "800"
+    },
+    {  
+      "prodId": 115,
+      "prodName": "Battery",
+      "prodCost": "5000"
+      }  
+  ]  
+ ,
+ "employees": [
+  { 
+  "empId": 1001,
+  "empName": "Madhuri",
+  "salary": "65000"
+  },
+  
+  {  
+  "empId":1002,
+  "empName": "Vishal",
+  "salary": "83000"
+  },
+  
+  {
+  "empId": 1003,
+  "empName": "Pallavi",
+  "salary": "85000"
+  },
+  {  
+    "empId": 1004,
+    "empName": "Bhagyashree",
+    "salary": "73000"
+    },
+    {  
+      "empId": 1005,
+      "empName": "Shwetambari",
+      "salary": "35000"
+      }  
+  ]  
+  }

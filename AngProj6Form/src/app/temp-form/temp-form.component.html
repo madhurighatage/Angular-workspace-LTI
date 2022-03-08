@@ -1,0 +1,35 @@
+<!--because we imported FormsModule, that makes NgForm available to our view.-->
+<!-- functionality that NgForm gives us FormGroup named ngForm and (ngSubmit) output-->
+<!-- NgForm makes behind the seen ->   
+  our form input data gets attached to form(#myForm) tags you have in your view/html file.-->
+
+<!-- (ngSubmit) - comes from NgForm
+onSubmit() - will be implemented in our component definition class.
+myForm.value - myForm is the FormGroup that we specified above.
+value will return the key/value pairs of this FormGroup-->
+
+
+<!-- NgModel ----- special directive: it binds a model to a form. 
+     ngModel ----- two-way data binding.--> 
+
+     <h2>template-driven-form works!</h2>
+     <form #myForm="ngForm"  (ngSubmit)="onSubmit(myForm.value)">
+    
+       <div >
+         <label for="textId">Your Name</label>                    
+         <input type="text" id="textId" placeholder="Your Name Here " name="var_name" [ngModel]>  
+       </div>
+       <br>
+       <div class="field">
+         <label for="textPass">Your Password</label>
+         <input type="text" id="textPass" placeholder="Your Password " name="var_psw" [ngModel]>  
+       </div>
+       <br>
+       <button type="submit">Submit</button> 					
+  
+     </form>
+
+     
+                  
+   <div>{{vname}}</div>
+   <div>{{vpsw}}</div>

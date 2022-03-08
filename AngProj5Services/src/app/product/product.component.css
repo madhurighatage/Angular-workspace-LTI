@@ -1,0 +1,15 @@
+table{
+    color: rgb(98, 55, 139);  
+    width:auto;
+}
+ th, td {
+    border: 2px solid rgb(160, 67, 67);
+  }
+  th, td {
+    border-color: #338046;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+  }
+  h1{
+      color: rgb(42, 38, 100);
+  }

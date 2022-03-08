@@ -1,0 +1,26 @@
+
+Terminal> npm install -g typescript ( -g for global available outside the package also )
+
+for LTI classrooms :
+ type this command on C:\ npm install -g typescript 
+in vscode -> see it's not powershell , select cmd, 
+set default command prompt -cmd option should come
+then terminal -> new -> u should see cmd 
+
+tsc Demo1.ts
+node Demo1.js
+
+        >tsc --version
+        > create folder in D:Drive --say eg. Day1 and open it in vscode 
+
+terminal >Day1> tsc demo1.tsc 
+                                        file gets compiled into demo1.js
+
+         >node demo1.js
+                                        see the output 
+
+//vscode comments shift+ alt + /
+
+//online editor 
+https://www.typescriptlang.org/play/#
+

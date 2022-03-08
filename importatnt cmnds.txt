@@ -1,0 +1,16 @@
+ng new AngProj5Services --skip-tests true
+
+[12:45 PM] Meenal Uphale (Guest)
+    npm install --save bootstrap
+	
+?[12:45 PM] Meenal Uphale (Guest)
+    npm install --save jquery@latest
+
+
+ng g s Services\calc
+
+for json database : 
+npm install -g json-server
+json-server --watch db.json
+
+

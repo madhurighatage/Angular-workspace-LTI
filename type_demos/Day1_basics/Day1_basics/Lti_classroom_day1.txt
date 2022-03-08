@@ -1,0 +1,20 @@
+https://code.visualstudio.com/download
+1> install node js  
+2> install VSCode 
+create a folder - > AngularProjects  in Any Accesible Drive 
+vscode terminal -
+for LTI classrooms 
+type this command on C:\
+npm install -g typescript 
+D:\TypeScriptDemos
+ var myvar=100;
+ console.log(myvar);
+tsc Demo1.ts  - to compile  Demo1.js
+node  Demo1.js to run
+D:\AngularProjects
+
+
+
+
+
+

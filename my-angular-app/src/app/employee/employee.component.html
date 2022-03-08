@@ -1,0 +1,18 @@
+<h2>Employees</h2>
+<div class="container">
+    <div class='table-responsive'>
+         <table class="table table-striped">
+  <tr>
+    <th scope="col">Employee Id</th>
+    <th scope="col">Employee Name</th>
+    <th scope="col">Salary</th>
+  </tr>
+  <tr *ngFor="let employee of empList;">
+    <td>{{ employee.empNo }}</td>
+    <td>{{ employee.empName }}</td>
+    <td>{{ employee.empSal }}</td>
+  </tr>
+</table>
+</div>
+
+</div>

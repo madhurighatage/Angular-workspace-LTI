@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/welcome_bg.jpg');
+    height: 50vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #cfa0b6;
+    background-color: #EAEAEA;
+    border-width: thin;
+    border-radius: 25px;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+    
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+    
+  }
+
+  #reg .container #reg-row #reg-column #reg-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #cfa0b6;
+    background-color: #EAEAEA;
+    border-width: thin;
+    border-radius: 25px;
+  }
+  #welcome {
+    background-image: url('images/welcome_bg.jpg');
+  } 
+
+  .navbar {
+    background:#bfc5bc;
+}
+.nav-link,
+.navbar-brand {
+    color: rgb(85, 22, 22);
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(16, 116, 107);
+    font-size: medium;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+ 
+}
+.footer-copyright {
+  color: #666;
+ 
+}

@@ -1,0 +1,19 @@
+<p>reactive-form works!</p>
+<h2>reactive-form works!</h2>
+   <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm.value)">
+   <div>
+      <label for="textId">Your Name</label>
+      <input type="text" id="textId" placeholder="Your Name Here " formControlName="var_name">
+   </div>
+   <br>
+   <div>
+      <label for="textPass">Your Password</label>
+      <input type="text" id="textPass" placeholder="Your Password " formControlName="var_psw">
+   </div>
+   <button type="submit">Submit</button> 
+</form> 
+{{vname}}
+{{vpsw}}
+<!--Note *****:
+      To create a new FormGroup and FormControls implicitly use:ngForm and ngModel ( just like in template driven form )
+      To bind to an existing FormGroup and FormControls use:formGroup and formControl-->

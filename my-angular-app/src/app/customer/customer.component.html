@@ -1,0 +1,21 @@
+<p>customer works!</p>
+<table>
+                    <thead>
+                            <tr>
+                                   <th>No</th>
+                                    <th>Name</th>
+                                    <th>Address</th>
+                                    <th>City</th>
+                                    <th>State</th>
+                                </tr>
+                        </thead>
+                    <tbody>
+         <tr *ngFor="let c of custArry;">
+              <td>{{c.custNo}}</td>
+             <td>{{c.custName}}</td>
+             <td>{{c.custAdd}}</td>
+             <td>{{c.city}}</td>
+             <td>{{c.country}}</td>                        
+             </tr>
+                        </tbody>
+                </table>

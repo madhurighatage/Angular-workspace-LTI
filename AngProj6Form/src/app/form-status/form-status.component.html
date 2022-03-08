@@ -1,0 +1,43 @@
+<p>form-status works!</p>
+<h3>Demo Form: with validations (explicit)</h3>
+<form [formGroup]="f" (ngSubmit)="onSubmit(f.value)" class="ui form" [class.error]="!f.valid && f.touched">
+
+  <div class="field" [class.error]="!var_name.valid && var_name.touched">
+    <label for="var_name">Your Name</label>
+    <input type="text" id="var_name" placeholder="Your Name : " [formControl]="var_name">
+    <div *ngIf="!var_name.valid" >Name is invalid</div>
+  <div *ngIf="var_name.hasError('required')" >Name is required</div> 
+  </div>
+      
+  <br>
+  <div *ngIf="f.untouched" >Form is untouched    </div>
+    <pre>{{ f.untouched }}</pre>
+  <div *ngIf="f.touched" >Form is touched </div>
+  <pre>{{ f.touched}}</pre>
+  <div *ngIf="f.pristine" >Form is prestine- not modified</div>
+  <pre>{{ f.pristine}}</pre>
+  <div *ngIf="f.dirty" >Form is  dirty - modified </div>
+  <pre>{{ f.dirty }}</pre>
+  <div *ngIf="f.valid" >Form is valid</div>
+  <pre>{{ f.valid }}</pre>
+
+ <button type="button" [disabled]="!f.valid">Submit</button>
+</form>
+
+<div>
+  <hr>
+  <h3>State of form elements: </h3>
+
+
+  <br>pristine: This property returns true if the element's contents have not been changed.
+  <br>dirty: This property returns true if the element's contents have been changed.
+  
+  <br> touched: This property returns true if the user has visited the element.
+  <br> untouched: This property returns true if the user has not visited the element.
+
+  <br> valid: This property returns true if each element has a valid data ( works for all form fields )
+</div>
+<p>
+angular does not change form status to pristine, when the user changes UI .
+ so don't rely on prestine
+manually- in component  this.f.markAsPristine();</p>

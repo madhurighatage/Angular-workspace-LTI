@@ -1,0 +1,19 @@
+<div class="row">
+<h1>Products</h1>
+</div>
+<div class="container">
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <tr>
+        <th scope="col">Product Id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Product</th>
+      </tr>
+      <tr *ngFor="let prod of prodList">
+        <td>{{ prod.prodId }}</td>
+        <td>{{ prod.prodName }}</td>
+        <td>{{ prod.prodCost }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

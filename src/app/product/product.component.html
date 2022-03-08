@@ -1,0 +1,14 @@
+<h1>Products</h1>
+
+<table>
+    <tr>
+      <th scope="col">Product Id</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Product</th>
+    </tr>
+    <tr *ngFor="let prod of prodArray;">
+      <td>{{ prod.ProductId }}</td>
+      <td>{{ prod.ProductName }}</td>
+      <td>{{ prod.ProductCost }}</td>
+    </tr>
+  </table>

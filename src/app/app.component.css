@@ -1,0 +1,36 @@
+ul li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  ul li:hover {
+    background-color: lightgray;
+  }
+  .active {
+  background-color: rgb(66, 30, 66) ;
+  }
+  .navbar {
+    background:#a5ada1;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 18, 18);
+    font-weight: bolder;
+}
+.nav-link,
+.navbar-brand {
+    color: rgb(85, 22, 22);
+    cursor: pointer;
+    
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(16, 116, 107);
+    font-size: medium;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
